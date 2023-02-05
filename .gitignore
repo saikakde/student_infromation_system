@@ -1,0 +1,9 @@
+.env
+sis/views/students/__pycache__/*
+record.log
+sis/models/__pycache__/*
+sis/views/colleges/__pycache__/*
+sis/views/courses/__pycache__/*
+sis/__pycache__/*
+sis/views/admin/__pycache__/*
+sis/views/__pycache__/*
