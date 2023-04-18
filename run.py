@@ -10,5 +10,5 @@ load_dotenv('.env')
 app.secret_key = os.getenv('SECRET_KEY')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug = True)
     
