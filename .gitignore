@@ -1,4 +1,3 @@
-.env
 sis/views/students/__pycache__/*
 record.log
 sis/models/__pycache__/*
