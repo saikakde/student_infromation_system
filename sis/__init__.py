@@ -7,8 +7,8 @@ def create_app() -> object:
     app.config['SECRET_KEY'] = getenv('SECRET_KEY')
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///sqlite_script.db'
 
-    logging.basicConfig(filename='record.log', level=logging.DEBUG,
-                    format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+    # logging.basicConfig(filename='record.log', level=logging.DEBUG,
+                    # format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
 
     # import blueprints
     from .views.admin import admin
